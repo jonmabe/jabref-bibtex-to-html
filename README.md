@@ -24,3 +24,10 @@ Export your JabRef project as the BibTeX XML format. Then use the file as the in
 ```
 python main.py --input-xml data\mk-bibtexml.xml --project-title "Mineral King"
 ```
+
+Output
+------
+
+Here's what the resulting output looks like when viewed in Chrome
+
+![Screenshot](screenshot.png "Screenshot")
