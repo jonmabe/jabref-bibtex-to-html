@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="libs/jquery-1.11.1.js"></script>
+
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css">
+    <script src="libs/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="libs/DataTables-1.10.2/css/jquery.dataTables.min.css">
+    <script src="libs/DataTables-1.10.2/js/jquery.dataTables.min.js"></script>
+
+    <script src="article-json.js"></script>
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 id="main-title"></h1>
+      <div class="table-responsive">
+        <div class="show-hide-buttons">
+          <button type="button" class="button-articles-show-all btn btn-info">Show All Text</button>
+          <button type="button" class="button-articles-hide-all btn btn-warning">Hide All Text</button>
+        </div>
+        <table id="articles" class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Date</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Newspaper</th>
+              <th>Keywords</th>
+              <th>Abstract</th>
+              <th>Text</th>
+              <th>File</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

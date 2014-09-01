@@ -1,0 +1,18 @@
+.container-fluid{
+  position: relative;
+}
+
+#articles tr.entry.info {
+  font-weight: bold;
+}
+
+.show-hide-buttons{
+  position: absolute;
+  right: 17px;
+  top: 62px;
+  z-index: 100;
+}
+
+#articles_filter{
+  float:left;
+}
