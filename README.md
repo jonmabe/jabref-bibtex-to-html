@@ -21,4 +21,6 @@ Usage
 
 Export your JabRef project as the BibTeX XML format. Then use the file as the input to this application.
 
-  python main.py --input-xml data\mk-bibtexml.xml --project-title "Mineral King"
+```
+python main.py --input-xml data\mk-bibtexml.xml --project-title "Mineral King"
+```
