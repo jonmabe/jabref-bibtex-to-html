@@ -17,7 +17,7 @@ $(document).ready(function(){
         "<button type='button' class='toggle-show btn btn-info'>Show Text</button>"+
         "<button type='button' class='toggle-hide btn btn-warning' style='display:none'>Hide Text</button>") + "</td>" +
       "<td class='file'>"+
-        "<a href='"+ pdf_root +"\\"+ entry.file +"' target='_blank' class='btn btn-primary'>PDF</a></td>" +
+        "<a href='"+ pdf_root +"\\"+ entry.file.replace(/'/g, "&#39;") +"' target='_blank' class='btn btn-primary'>PDF</a></td>" +
       "</tr>"
     );
   });
